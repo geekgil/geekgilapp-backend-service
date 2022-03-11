@@ -60,10 +60,10 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/target/classes/static/</outputDirectory>
+							<outputDirectory>C:/Users/Remakker/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/employee-backend/target/classes/static/</outputDirectory>
 							<resources>
 								<resource>
-									<directory>${basedir}/../employee-frontend/build</directory>
+									<directory>C:/Users/Remakker/Documents/Recode Pro/Spring Boot/employee-frontend/build</directory>
 								</resource>
 							</resources>
 						</configuration>
