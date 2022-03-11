@@ -55,7 +55,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		<!--<plugin>
+		 	<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<executions>
 					<execution>
@@ -65,7 +65,7 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>C:/Users/Remakker/Documents/workspace-spring-tool-suite-4-4.13.1.RELEASE/employee-backend/target/classes/static/</outputDirectory>
+							<outputDirectory>${basedir}/target/classes/static/</outputDirectory>
 							<resources>
 								<resource>
 									<directory>C:/Users/Remakker/Documents/Recode Pro/Spring Boot/employee-frontend/build</directory>
@@ -74,7 +74,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>-->
+			</plugin>
 		</plugins>
 	</build>
 	<repositories>
